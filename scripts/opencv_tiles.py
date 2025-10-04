@@ -19,7 +19,7 @@ max_level = math.ceil(math.log2(max_dim))
 print(f"Image size: {w}x{h}, Pyramid levels: {max_level+1}")
 
 # Generate pyramid tiles
-min_level = 5   # skip tiny base levels
+min_level = 0   # skip tiny base levels
 for level in range(max_level, min_level - 1, -1):
     scale = 2 ** (max_level - level)
     new_w = math.ceil(w / scale)
