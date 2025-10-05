@@ -2,8 +2,8 @@ import cv2
 import os
 import math
 
-input_tif = r"C:/Users/himan/Desktop/Spaceapps/spaceapps_challenge/data/processed/ctx_mrox_4103/N19_069692_1920_XN_12N264W.tif"
-output_dir = r"C:/Users/himan/Desktop/Spaceapps/spaceapps_challenge/web_tiles/N19_069692_1920_XN_12N264W"
+input_tif = r"C:/Users/himan/Desktop/Spaceapps/spaceapps_challenge/data/processed/ctx_mrox_4122/N20_070273_1355_XI_44S280W.tif"
+output_dir = r"C:/Users/himan/Desktop/Spaceapps/spaceapps_challenge/web_tiles/N20_070273_1355_XI_44S280W"
 tile_size = 256
 
 os.makedirs(output_dir, exist_ok=True)

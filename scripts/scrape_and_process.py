@@ -10,10 +10,10 @@ from rasterio.windows import Window
 # ----------------------------
 # User Config
 # ----------------------------
-VOLUME_URL = "https://planetarydata.jpl.nasa.gov/img/data/mro/ctx/mrox_4103/"
-RAW_DIR = "C:/Users/himan/Desktop/Spaceapps/spaceapps_challenge/data/raw/ctx/mrox_4103"
-PROCESSED_DIR = "C:/Users/himan/Desktop/Spaceapps/spaceapps_challenge/data/processed/ctx_mrox_4103"
-TILE_DIR = "C:/Users/himan/Desktop/Spaceapps/spaceapps_challenge/data/tiles/ctx_mrox_4103"
+VOLUME_URL = "https://planetarydata.jpl.nasa.gov/img/data/mro/ctx/mrox_4122/"
+RAW_DIR = "C:/Users/himan/Desktop/Spaceapps/spaceapps_challenge/data/raw/ctx/mrox_4122"
+PROCESSED_DIR = "C:/Users/himan/Desktop/Spaceapps/spaceapps_challenge/data/processed/ctx_mrox_4122"
+TILE_DIR = "C:/Users/himan/Desktop/Spaceapps/spaceapps_challenge/data/tiles/ctx_mrox_4122"
 TILE_SIZE = 512
 DOWNLOAD_LIMIT = 5  # Set None to download all files
 DOWNLOAD_DELAY = 1  # seconds between downloads
